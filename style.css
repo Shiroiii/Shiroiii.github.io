@@ -1,5 +1,5 @@
 body{
-    background-color: #222220;
+    background-color: white;
     padding: 100px 400px;
 }
 
@@ -12,6 +12,7 @@ form{
     height: 250px;
     padding: 20px;
     position: relative;
+    box-shadow: 11px 7px 24px -4px rgba(0,0,0,1);
 }
 
 input{
