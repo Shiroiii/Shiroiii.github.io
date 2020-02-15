@@ -48,6 +48,6 @@ label{
 
 @media screen and (max-width: 800px) {
     form {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 75%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
