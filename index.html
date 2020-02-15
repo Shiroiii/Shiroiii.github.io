@@ -10,20 +10,23 @@
     <body>
        <form>
             <div class="container">
-                <h2>Login</h2>
-
-                <div class="details">
-                    <label for="username">Username</label>
-                    <input type="text" name="userName" id="username">
+                <div id="header">
+                    <h2>Login</h2>
                 </div>
-                <div class="details">
-                    <label for="password">Password</label>
-                    <input type="password" name="passWord" id="password">
+                <div id="content">
+                    <div class="details">
+                        <label for="username">Username</label>
+                        <input type="text" name="userName" id="username">
+                    </div>
+                    <div class="details">
+                        <label for="password">Password</label>
+                        <input type="password" name="passWord" id="password">
+                    </div>
+                    <span>
+                        <input type="checkbox" name="remember" id="rem">
+                        <label for="rem">Keep me logged in</label>
+                    </span>
                 </div>
-                <span>
-                    <input type="checkbox" name="remember" id="rem">
-                    <label for="rem">Keep me logged in</label>
-                </span>
                 <button type="submit">Login</button>
             </div>
        </form>
